@@ -12,6 +12,10 @@ let right = stringArray.length - 1; //right-most index
         stringArray[right] = temp; // store that right-most
         left++;
         right--;
+
+        //OMG I DIDN'T REALIZE THE SOLUTION IS JUST A .reverse() FUNCTION WTF
+        //I SPENT 2 HOURS TRYING TO COME UP WITH THIS METHOD
+        //
     }
         
     return stringArray.join('');
